@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Jack-OC/Intro-Component-SignUp-Form)
+- Live Site URL: (https://jack-oc.github.io/Intro-Component-SignUp-Form/)
 
 ## My process
 
