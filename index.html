@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+
+
+  <article class="signup-card">
+
+    <section class="signup-info">
+      <h1 class="signup-title">Learn to code by watching others</h1>
+      <p class="signup-lead">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+        great,
+        but understanding how developers think is invaluable.</p>
+    </section>
+
+    <section class="signup-form-div">
+      <p class="trial-banner">
+        Try it free 7 days <span>then $20/mo. thereafter</span>
+      </p>
+
+      <form class="signup-form" id="form">
+        <fieldset>
+          <label for="firstname" class="input-label">First Name</label>
+          <input type="text" name="firstname" class="input firstname" placeholder="First Name" />
+
+          <div class="error-div">
+            <img src="./images/icon-error.svg" class="error-icon" alt="error icon" />
+            <p class="error-msg">First Name cannot be empty</p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="lastname" class="input-label">Last Name</label>
+          <input type="text" name="lastname" class="input lastname" placeholder="Last Name" />
+
+          <div class="error-div">
+            <img src="./images/icon-error.svg" class="error-icon" alt="error icon" />
+            <p class="error-msg">Last Name cannot be empty</p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="email" class="input-label">Email</label>
+          <input type="email" name="email" class="input email" placeholder="Email Address" />
+          <div class="error-div">
+            <img src="./images/icon-error.svg" class="error-icon" alt="error icon" />
+            <p class="error-msg">Looks like this is not an email</p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="password" class="input-label">Password</label>
+          <input type="password" name="password" class="input password" placeholder="Password" />
+
+          <div class="error-div">
+            <img src="./images/icon-error.svg" class="error-icon" alt="error icon" />
+            <p class="error-msg">Password cannot be empty</p>
+          </div>
+        </fieldset>
+        <fieldset>
+          <button class="submit-btn" type="submit">Claim your free trial</button>
+        </fieldset>
+
+        <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </form>
+    </section>
+  </article>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
